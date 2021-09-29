@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Charlie</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMThfNzIg%2FMDAxNjAyOTg3MjE2OTMy.JW1sKirlIIYjJi_zp_nmAU0kb8dWeVx0Lx3LQponSwUg.JqDomNQbi1Mx6DD26jdabVQVGKPci9DC32YrQVXW0KIg.JPEG.jung4797%2F3B4D2197-1C09-4C2B-9F0C-27DDEF3A2777-1311-000000A3EFCFC9C0_file.jpg&type=sc960_832"
+        />
+        <div class="message-row__content">
+          <span class="message-row__author">Snoopy(dog)</span>
+          <div class="message-row__info">
+            <span class="message-bubble">Hi!!</span>
+            <span class="message-time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row--own">
+        <div class="message-row__info">
+          <span class="message-bubble">What's up?</span>
+          <span class="message-time">21:28</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-2x"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-media">Your screen is too big</div>
+
+    <script
+      src="http://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
